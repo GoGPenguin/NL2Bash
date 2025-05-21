@@ -1,75 +1,75 @@
-# LaTeX junk
-*.aux
-*.log
-*.bbl
-*.blg
-*.fdb_latexmk
-*.fls
-*.pdf
-*.synctex.gz
-*.out
-*.dvi
+# # LaTeX junk
+# *.aux
+# *.log
+# *.bbl
+# *.blg
+# *.fdb_latexmk
+# *.fls
+# *.pdf
+# *.synctex.gz
+# *.out
+# *.dvi
 
-# uncompressed StackOverflow data
-*.sqlite
+# # uncompressed StackOverflow data
+# *.sqlite
 
-# IDE junk
-*.sublime-*
+# # IDE junk
+# *.sublime-*
 
-# Python
-*.pyc
+# # Python
+# *.pyc
 
-# Java
-*.class
+# # Java
+# *.class
 
-# moses files
-*.final
-*.vcb
+# # moses files
+# *.final
+# *.vcb
 
-# auto-generated files
-parsetab.py
-/man-parser/out
+# # auto-generated files
+# parsetab.py
+# /man-parser/out
 
-# Shell scripts
-*.sh
+# # Shell scripts
+# *.sh
 
-# Database file
-*.db
-/bashlint/grammar/*.txt
+# # Database file
+# *.db
+# /bashlint/grammar/*.txt
 
-# Misc
-MANIFEST
-.DS_Store
-*.csv
-*.key
-eval.*
-temp*.txt
-*dump*.txt
-spell.txt
-manual.eval.results*
-*beam_search.eval
-beam_search*eval*
-*.swp
-*.swo
-*.debug
-/paper
-/data/reader
-tools/spellcheck/*.txt
-grammar/primitive_cmds_grammar2.json
+# # Misc
+# MANIFEST
+# .DS_Store
+# *.csv
+# *.key
+# eval.*
+# temp*.txt
+# *dump*.txt
+# spell.txt
+# manual.eval.results*
+# *beam_search.eval
+# beam_search*eval*
+# *.swp
+# *.swo
+# *.debug
+# /paper
+# /data/reader
+# tools/spellcheck/*.txt
+# grammar/primitive_cmds_grammar2.json
 
-# IDE-specific stuff:
-__pycache__
-.idea
-*.iml
-site_config.py
+# # IDE-specific stuff:
+# __pycache__
+# .idea
+# *.iml
+# site_config.py
 
-# production of intellij project
-parsers/out/production/*
+# # production of intellij project
+# parsers/out/production/*
 
-# sensitive data
-shallow_baselines/knn/data/*
-shallow_baselines/ibm/data/*
-data/bash/*
-parsers/test_data/*
-*.cm*
-*.nl*
+# # sensitive data
+# shallow_baselines/knn/data/*
+# shallow_baselines/ibm/data/*
+# data/bash/*
+# parsers/test_data/*
+# *.cm*
+# *.nl*
