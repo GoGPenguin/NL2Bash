@@ -35,7 +35,7 @@ parsetab.py
 
 # Database file
 *.db
-*.txt
+/bashlint/grammar/*.txt
 
 # Misc
 MANIFEST
