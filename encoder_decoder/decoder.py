@@ -157,7 +157,7 @@ class AttentionCellWrapper(tf.compat.v1.nn.rnn_cell.RNNCell):
             print("attention input keep probability = {}"
                   .format(attention_input_keep))
             attention_states = tf.nn.dropout(
-                attention_states, 1 - (attention_input_keep))
+                attention_states, rate=1 - (1 - (attention_input_keep)))
         attn_length = attention_states.get_shape()[1]
         attn_dim = attention_states.get_shape()[2]
 

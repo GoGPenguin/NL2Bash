@@ -9,8 +9,8 @@ all: print
 data:
 	# Filter raw parallel corpus and split to train/dev/test 
 	cd ../data/scripts && \
-	python3 filter_data.py bash && \
-	python3 split_data.py bash && \
+	python filter_data.py bash && \
+	python split_data.py bash && \
 	cd ../../scripts
 	
 	# Convert raw parallel corpus to features taken by the neural network
